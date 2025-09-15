@@ -1,12 +1,12 @@
-from Adress import Adress
+from Address import Address
 from Mailing import Mailing
 
-to_adr = Adress("123456", "Москва", "Ленина", "10", "55")
-from_adr = Adress("654321", "Лесосибирск", "Победы", "1", "4")
+to_adr = Address("123456", "Москва", "Ленина", "10", "55")
+from_adr = Address("654321", "Лесосибирск", "Победы", "1", "4")
 
 mailing = Mailing(
-    to_adress = to_adr,
-    from_adress = from_adr,
+    to_address = to_adr,
+    from_address = from_adr,
     cost = 500,
     track = "1q2w3e4r5t6y"
 )
